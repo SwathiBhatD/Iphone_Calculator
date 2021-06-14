@@ -88,10 +88,6 @@ input[type="button" i]:focus-visible {
 @media (max-width: 300px) {
     table {
       width:100%;
-      height:auto;
     }
-    input[type="button" i]:focus-visible {
-    outline: none;
-}
 
   }
