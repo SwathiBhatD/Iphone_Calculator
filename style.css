@@ -90,4 +90,8 @@ input[type="button" i]:focus-visible {
       width:100%;
       height:auto;
     }
+    input[type="button" i]:focus-visible {
+    outline: none;
+}
+
   }
