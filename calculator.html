@@ -89,7 +89,7 @@
               var str=frmCalc.txtDisplay.value.slice(0,-1);
               var operator=frmCalc.txtDisplay.value.slice(-1);
               if(operator=="%")
-                frmCalc.txtDisplay.value=eval(str)/100;
+                frmCalc.txtDisplay.value=str/100;
               else
                 frmCalc.txtDisplay.value=eval(frmCalc.txtDisplay.value);
             }
