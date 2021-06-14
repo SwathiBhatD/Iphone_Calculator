@@ -87,7 +87,17 @@
             <input type="button"  class="btn btn1" value="." onclick="frmCalc.txtDisplay.value+='.'">
           </td>
           <td>
-            <input type="button" class="btn btn2" value="=" onclick="frmCalc.txtDisplay.value=eval(frmCalc.txtDisplay.value)">
+            <input type="button" class="btn btn2" value="=" onclick="Evaluate();">
+            <script>
+              function Evaluate(){
+              var str=frmCalc.txtDisplay.value.slice(0,-1);
+              var operator=frmCalc.txtDisplay.value.slice(-1);
+              if(operator=="%")
+                frmCalc.txtDisplay.value=eval(str)/100;
+              else
+                frmCalc.txtDisplay.value=eval(frmCalc.txtDisplay.value);
+            }
+            </script>
           </td>
         </tr>
       </table>
