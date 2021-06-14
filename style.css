@@ -1,0 +1,83 @@
+*{
+    padding:0;
+}
+table{
+    height: 520px;
+    width:260px;
+    background: black;
+    border :none;
+    border-radius: 34px;
+    padding:5px;
+}
+td{
+    height:60px;
+    width:60px;
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+.btn{
+    height:60px;
+    width:60px;
+    border:none;
+    border-radius:100%;
+    text-align:center;
+    color:white;
+    font:30px bold;
+    font-family: sans-serif;
+}
+
+.txt{
+    background-color:black;
+    width:260px;
+    height:70px;
+    border:none;
+    color:white;
+    text-align:right;
+    font:65px bold;
+    font-family: sans-serif;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top:60px;
+    
+}
+.btn1{
+    background-color: #2e2d2d;
+}
+.btn3{
+    background-color:#8e8484;
+    color:black;
+}
+.btn2{
+    background-color:#e76e11;
+}
+
+.btn4{
+    padding-left:20px;
+    text-align:left;
+    font:30px bold;
+}
+
+.btnclr{
+    font:20px bold;
+}
+.btnclr,.btn4{
+    height:60px;
+    width:125px;
+    border:none;
+    border-radius:29px;
+    color:white;
+    font-family: sans-serif;
+}
+.btn1:hover{
+    background-color:#666262;
+}
+.btn2:hover{
+    background-color:#ff9800;
+}
+.btn3:hover{
+    background-color:#bcb1b1;
+}
+input[type=button]:active{
+border:3px solid white;
+}
